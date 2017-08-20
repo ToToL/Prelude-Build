@@ -1,0 +1,21 @@
+[submodule "libprelude"]
+	path = libprelude
+	url = https://github.com/Prelude-SIEM/libprelude.git
+[submodule "libpreludedb"]
+	path = libpreludedb
+	url = https://github.com/Prelude-SIEM/libpreludedb.git
+[submodule "prelude-manager"]
+	path = prelude-manager
+	url = https://github.com/Prelude-SIEM/prelude-manager.git
+[submodule "prelude-lml"]
+	path = prelude-lml
+	url = https://github.com/Prelude-SIEM/prelude-lml.git
+[submodule "prelude-correlator"]
+	path = prelude-correlator
+	url = https://github.com/Prelude-SIEM/prelude-correlator.git
+[submodule "prelude-lml-rules"]
+	path = prelude-lml-rules
+	url = https://github.com/Prelude-SIEM/prelude-lml-rules.git
+[submodule "prewikka"]
+	path = prewikka
+	url = https://github.com/Prelude-SIEM/prewikka.git
