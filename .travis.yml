@@ -7,10 +7,10 @@ before_install:
 language: c
 script: 
 - cd libprelude && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install && sudo ldconfig
-- cd libpreludedb && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install && sudo ldconfig
-- cd prelude-manager && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install
-- cd prelude-lml && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install
-- cd prelude-correlator && python setup.py sdist && sudo python setup.py install
-- cd prewikka && python setup.py sdist && sudo python setup.py install
+- cd ../libpreludedb && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install && sudo ldconfig
+- cd ../prelude-manager && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install
+- cd ../prelude-lml && sh autogen.sh && ./configure --enable-gtk-doc && make && make distcheck && sudo make install
+- cd ../prelude-correlator && python setup.py sdist && sudo python setup.py install
+- cd ../prewikka && python setup.py sdist && sudo python setup.py install
 notifications:
    irc: "irc.iiens.net#ToToL"
